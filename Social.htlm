@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+    <div class="header-left">
+        <h1>Akshay Thakur</h1>
+        <p class="designation">PhD Scholar | Supply Chain Management</p>
+    </div>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="social.html">Social</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="content">
+    <div class="text">
+        <h2>Connect with Me</h2>
+
+        <div class="social-links">
+            <a href="https://scholar.google.com/" target="_blank" class="social-btn">Google Scholar</a>
+            <a href="https://www.linkedin.com/" target="_blank" class="social-btn">LinkedIn</a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
