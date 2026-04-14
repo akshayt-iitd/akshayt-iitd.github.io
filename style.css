@@ -111,10 +111,10 @@ header {
 }
 
 /* Colors */
-.supply { background: #1e3a8a; }
-.orange { background: #f97316; }
-.besan  { background: #eab308; color: black; }
-.flower { background: #ec4899; }
+.supply { background: #e8fafa; }
+.orange { background: #fae8e8; }
+.besan  { background: #e7fae6; color: black; }
+.flower { background: #faf0f9; }
 
 /* Hover Effect */
 .interest-box:hover {
