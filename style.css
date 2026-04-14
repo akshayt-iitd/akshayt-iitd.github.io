@@ -87,35 +87,28 @@ header {
 
 /* Keep content centered (same width as above section) */
 .interest-wrapper {
-    max-width: 1200px;
+    max-width: 800px;
     margin: auto;
 }
 
 /* Grid Layout */
-  .interest-container {
+.interest-container {
     display: grid;
-    grid-template-columns: max-content max-content; /* ✅ key change */
-    column-gap: 10px;   /* controls horizontal gap */
-    row-gap: 10px;      /* vertical gap */
-    justify-content: start;  /* align left */
-}
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
 }
 
 /* Boxes */
-  .interest-box {
-    width: 700px;   /* fixed width → removes extra space */
+.interest-box {
     padding: 25px;
     border-radius: 10px;
-    white-space: nowrap;
     color: white;
     font-weight: 600;
     text-align: center;
     transition: 0.3s;
     animation: fadeInUp 0.8s ease;
-  
 }
-}
-
 /* Colors */
 .supply { background: #c5f0ee; color: black; }
 .orange { background: #e3b6c0; color: black; }
