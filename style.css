@@ -87,7 +87,7 @@ header {
 
 /* Keep content centered (same width as above section) */
 .interest-wrapper {
-    max-width: 1200px;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -111,10 +111,10 @@ header {
 }
 
 /* Colors */
-.supply { background: #e8fafa; }
-.orange { background: #fae8e8; }
+.supply { background: #e8fafa; color: black; }
+.orange { background: #fae8e8; color: black; }
 .besan  { background: #e7fae6; color: black; }
-.flower { background: #faf0f9; }
+.flower { background: #faf0f9; color: black; }
 
 /* Hover Effect */
 .interest-box:hover {
