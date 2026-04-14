@@ -10,7 +10,10 @@
 <header>
     <div class="header-left">
         <h1>Akshay Thakur</h1>
-        <p class="designation">PhD Scholar | Supply Chain Management</p>
+        <p class="designation">
+        Research Scholar, IIT Delhi <br>
+        Operations andSupply Chain Management
+</p>
     </div>
 
     <nav>
@@ -29,8 +32,8 @@
         <h2>Connect with Me</h2>
 
         <div class="social-links">
-            <a href="https://scholar.google.com/" target="_blank" class="social-btn">Google Scholar</a>
-            <a href="https://www.linkedin.com/" target="_blank" class="social-btn">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=JNElmn0AAAAJ&hl=en/" target="_blank" class="social-btn">Google Scholar</a>
+            <a href="https://www.linkedin.com/in/akshay008" target="_blank" class="social-btn">LinkedIn</a>
         </div>
     </div>
 </section>
