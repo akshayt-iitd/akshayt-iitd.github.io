@@ -92,25 +92,26 @@ header {
 }
 
 /* Grid Layout */
-.interest-container {
+..interest-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 10px;
-    row-gap: 10px;
-    justify-items: start;
-    margin-top: 30px;
+    grid-template-columns: auto auto;  /* ✅ key fix */
+    column-gap: 10px;   /* horizontal gap */
+    row-gap: 10px;      /* vertical gap */
+    justify-content: start;  /* align left */
 }
 
 /* Boxes */
-.interest-box {
-    width: 70%; 
-    padding: 30px;
+  .interest-box {
+    width: 220px;   /* fixed width → removes extra space */
+    padding: 25px;
     border-radius: 10px;
     color: white;
     font-weight: 600;
     text-align: center;
     transition: 0.3s;
     animation: fadeInUp 0.8s ease;
+  
+}
 }
 
 /* Colors */
