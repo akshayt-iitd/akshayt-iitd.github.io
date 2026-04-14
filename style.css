@@ -133,3 +133,22 @@ header {
 .email-text a:hover {
     text-decoration: underline;
 }
+
+.card p {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.card em {
+    font-style: italic;
+}
+
+.card a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
