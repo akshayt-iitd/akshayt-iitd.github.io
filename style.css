@@ -221,3 +221,8 @@ header {
 .card a:hover {
     text-decoration: underline;
 }
+
+.publication-page .text {
+    max-width: 700px;
+    margin: auto;
+}
