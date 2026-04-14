@@ -94,7 +94,7 @@ header {
 /* Grid Layout */
 ..interest-container {
     display: grid;
-    grid-template-columns: auto auto;  /* ✅ key fix */
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;   /* horizontal gap */
     row-gap: 10px;      /* vertical gap */
     justify-content: start;  /* align left */
@@ -102,7 +102,7 @@ header {
 
 /* Boxes */
   .interest-box {
-    width: 220px;   /* fixed width → removes extra space */
+    width: 700px;   /* fixed width → removes extra space */
     padding: 25px;
     border-radius: 10px;
     color: white;
