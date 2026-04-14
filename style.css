@@ -91,20 +91,33 @@ header {
     to {opacity: 1; transform: translateX(0);}
 }
 
-.email-text {
+.email [O]-text {
     margin-top: 20px;
     font-size: 16px;
 }
 
-.email-text a {
+.email [O]-text a {
     color: #0f172a;
     text-decoration: none;
 }
 
-.email-text a:hover {
+.email [O]-text a:hover {
     text-decoration: underline;
 }
 
+.email [P]-text {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.email [P]-text a {
+    color: #0f172a;
+    text-decoration: none;
+}
+
+.email [P]-text a:hover {
+    text-decoration: underline;
+}
 .social-links {
     margin-top: 40px;
     display: flex;
