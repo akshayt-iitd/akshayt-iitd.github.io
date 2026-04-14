@@ -92,12 +92,13 @@ header {
 }
 
 /* Grid Layout */
-..interest-container {
+  .interest-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 10px;   /* horizontal gap */
+    grid-template-columns: max-content max-content; /* ✅ key change */
+    column-gap: 10px;   /* controls horizontal gap */
     row-gap: 10px;      /* vertical gap */
     justify-content: start;  /* align left */
+}
 }
 
 /* Boxes */
@@ -105,6 +106,7 @@ header {
     width: 700px;   /* fixed width → removes extra space */
     padding: 25px;
     border-radius: 10px;
+    white-space: nowrap;
     color: white;
     font-weight: 600;
     text-align: center;
