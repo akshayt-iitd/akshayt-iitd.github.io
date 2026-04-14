@@ -79,6 +79,60 @@ header {
     border-radius: 10px;
     animation: slideIn 1s ease-in;
 }
+/* NEW SECTION STYLE */
+.interest-section {
+    padding: 60px 80px;
+    background-color: #ffffff;
+}
+
+/* Keep content centered (same width as above section) */
+.interest-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Grid Layout */
+.interest-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Boxes */
+.interest-box {
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.3s;
+    animation: fadeInUp 0.8s ease;
+}
+
+/* Colors */
+.supply { background: #1e3a8a; }
+.orange { background: #f97316; }
+.besan  { background: #eab308; color: black; }
+.flower { background: #ec4899; }
+
+/* Hover Effect */
+.interest-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 /* ANIMATIONS */
 @keyframes fadeIn {
