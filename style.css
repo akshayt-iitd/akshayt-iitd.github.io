@@ -101,6 +101,7 @@ header {
 
 /* Boxes */
 .interest-box {
+    width: 70%; 
     padding: 25px;
     border-radius: 10px;
     color: white;
