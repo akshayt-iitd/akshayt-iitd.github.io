@@ -2,183 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            scroll-behavior: smooth;
-        }
-
-        /* NAVBAR */
-        nav {
-            background: #222;
-            padding: 15px;
-            position: sticky;
-            top: 0;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-        }
-
-        nav ul li a:hover {
-            color: #00bcd4;
-        }
-
-        /* SECTIONS */
-        section {
-            padding: 60px 20px;
-            text-align: justify;
-        }
-
-        /* HEADER FONT SIZES */
-        h1 {
-            font-size: 48px;
-        }
-
-        h2 {
-            font-size: 36px;
-        }
-
-        h3 {
-            font-size: 24px;
-        }
-
-        /* HOME */
-        #home {
-            background: #f5f5f5;
-        }
-
-        #home img {
-            width: 150px;
-            border-radius: 50%;
-            margin-top: 20px;
-        }
-
-        /* ABOUT */
-        #about {
-            background: #e0f7fa;
-        }
-
-        /* PROJECTS */
-        #projects {
-            background: #fff3e0;
-        }
-
-        .project {
-            margin: 20px;
-            padding: 15px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-        }
-
-        /* CONTACT */
-        #contact {
-            background: #ede7f6;
-        }
-
-        footer {
-            background: #222;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-
-        button {
-            padding: 10px 20px;
-            border: none;
-            background: #00bcd4;
-            color: white;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        button:hover {
-            background: #0097a7;
-        }
-    </style>
+    <title>Akshay Thakur</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- NAVBAR (TABS) -->
-<nav>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-
-<!-- HOME -->
-<section id="home">
-    <h1>Akshay Thakur</h1>
-    <h3>Hi, I'm Your Name</h3>
-    
-    <!-- ADD YOUR PHOTO HERE -->
-    <img src="WhatsApp Image 2025-06-24 at 23.36.30.jpeg" alt="My Photo">
-
-    <p>This is my personal portfolio website hosted on GitHub Pages.</p>
-</section>
-
-<!-- ABOUT -->
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        At the forefront of academia, my journey as a Research Scholar at IIT Delhi, enhances my understanding of Operations and Supply Chain Management. Previously, as an Academic Associate at IIM Indore and an Assistant Professor at IIST, I honed my experience in Operations Management and Quantitative Techniques. With a solid foundation from my Master's in Industrial Engineering and Management, my competencies lie in streamlining processes, sustainability and optimizing supply chains. I am looking forward to advancing the field through rigorous research and practical application, driving innovation to address complex challenges in supply chain management.
-    </p>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects">
-    <h2>My Projects</h2>
-
-    <div class="project">
-        <h3>Project 1</h3>
-        <p>Description of your project.</p>
+<header>
+    <div class="header-left">
+        <h1>Akshay Thakur</h1>
+        <p class="designation">PhD Scholar | Supply Chain Management</p>
     </div>
 
-    <div class="project">
-        <h3>Project 2</h3>
-        <p>Description of your project.</p>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="publications.html">Publications</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="content">
+    <div class="text">
+        <h2>Welcome</h2>
+        <p>
+            Welcome to my academic portfolio. I specialize in Supply Chain Resilience,
+            AI-driven technologies, and Operations Management.
+        </p>
     </div>
 
+    <div class="image">
+        <img src="your-photo.jpg" alt="Profile Photo">
+    </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: your@email.com</p>
-    <button onclick="showMessage()">Click Me</button>
-</section>
-
-<footer>
-    <p>© 2026 My Website</p>
-</footer>
-
-<script>
-    function showMessage() {
-        alert("Thanks for visiting my website!");
-    }
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
