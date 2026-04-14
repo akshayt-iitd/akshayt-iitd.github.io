@@ -110,3 +110,8 @@ header {
     background-color: #38bdf8;
     transform: translateY(-3px);
 }
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
