@@ -115,3 +115,7 @@ header {
     font-size: 20px;
     margin-bottom: 5px;
 }
+
+.card:first-child {
+    margin-top: 0;
+}
