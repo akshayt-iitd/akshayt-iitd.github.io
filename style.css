@@ -62,6 +62,9 @@ header {
     max-width: 1200px;
     margin: auto;
     gap: 50px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 16px;
 }
 
 /* TEXT */
@@ -103,11 +106,6 @@ header {
     transition: 0.3s;
 }
 
-.text p {
-    text-align: justify;
-    line-height: 1.6;
-    font-size: 16px;
-}
 .social-btn:hover {
     background-color: #38bdf8;
     transform: translateY(-3px);
