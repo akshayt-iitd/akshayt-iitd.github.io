@@ -88,7 +88,7 @@ header {
 /* Keep content centered (same width as above section) */
 .interest-wrapper {
     max-width: 900px;
-
+    margin: 20px;
 }
 
 /* Grid Layout */
