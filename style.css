@@ -244,6 +244,7 @@ header {
 .main {
     font-weight: 600;
     margin-bottom: 5px;   /* small gap before sublines */
+    align-items: left;
     animation: fadeInUp 0.8s ease;
 }
 
@@ -251,6 +252,7 @@ header {
 .sub {
     margin: 2px 0;        /* tight spacing between sublines */
     font-size: 15px;
+    align-items: left;
     animation: fadeInUp 0.8s ease;
 }
 
