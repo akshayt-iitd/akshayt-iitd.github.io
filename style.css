@@ -282,3 +282,16 @@ header {
 .card p:last-child {
     margin-top: 6px;
 }
+.education-page {
+    display: block;   /* ✅ makes it vertical */
+}
+.edu-item {
+    margin-bottom: 20px;   /* space between items */
+}
+.main {
+    margin-bottom: 5px;   /* small gap before sublines */
+}
+
+.sub {
+    margin: 2px 0;        /* tight sublines */
+}
