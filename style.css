@@ -186,11 +186,10 @@ header {
 .email [P]-text a:hover {
     text-decoration: underline;
 }
-.email-text {
-    background-color: #d5eded;   /* light grey background */
-    padding: 10px 15px;
-    border-radius: 6px;
-   
+.social-section {
+    background-color: #fae8fc;   /* light blue */
+    padding: 40px 80px;
+    border-radius: 10px;
 }
 .social-links {
     margin-top: 40px;
