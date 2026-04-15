@@ -160,7 +160,7 @@ header {
 }
 
 .email [O]-text {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 16px;
 }
 
@@ -174,7 +174,7 @@ header {
 }
 
 .email [P]-text {
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 16px;
 }
 
@@ -187,12 +187,12 @@ header {
     text-decoration: underline;
 }
 .social-section {
-    background-color: #fae8fc;   /* light blue */
-    padding: 40px 80px;
-    border-radius: 10px;
+    background-color: #e8fcfc;   /* light blue */
+    padding: 40px 100px;
+    border-radius: 0px;
 }
 .social-links {
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     justify-content: flex-start;
     gap: 20px;
