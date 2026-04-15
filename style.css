@@ -239,3 +239,20 @@ header {
 .publication-page .text {
     max-width: 700px;
 }
+
+/* Main line (PhD, PG, UG) */
+.main {
+    font-weight: 600;
+    margin-bottom: 5px;   /* small gap before sublines */
+}
+
+/* Sublines (details) */
+.sub {
+    margin: 2px 0;        /* tight spacing between sublines */
+    font-size: 15px;
+}
+
+/* Space between different education blocks */
+.edu-item {
+    margin-bottom: 20px;  /* BIG gap between PhD → PG → UG */
+}
