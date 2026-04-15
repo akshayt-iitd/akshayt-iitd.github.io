@@ -262,3 +262,23 @@ header {
     display: block;   /* ensures vertical stacking */
 }
 
+/* Main card spacing (BIG gap between jobs) */
+.card {
+    margin-bottom: 25px;   /* space between Research Scholar → Academic Associate */
+}
+
+/* Main title */
+.card h3 {
+    margin-bottom: 6px;   /* small gap before sublines */
+}
+
+/* Sublines: org, duration, description */
+.card p {
+    margin: 2px 0;        /* 🔥 tight spacing between sublines */
+    line-height: 1.3;
+}
+
+/* Optional: slightly separate description */
+.card p:last-child {
+    margin-top: 6px;
+}
