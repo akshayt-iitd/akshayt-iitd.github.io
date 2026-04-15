@@ -250,7 +250,7 @@ header {
 /* Sublines (details) */
 .sub {
     margin: 2px 0;        /* tight spacing between sublines */
-    font-size: 15px;
+    font-size: 18px;
     animation: fadeIn 1s ease-in;
 }
 
