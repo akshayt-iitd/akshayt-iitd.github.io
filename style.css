@@ -187,10 +187,10 @@ header {
     text-decoration: underline;
 }
 .email-text {
-    background-color: d5eded;   /* light grey background */
+    background-color: #d5eded;   /* light grey background */
     padding: 10px 15px;
     border-radius: 6px;
-    display: inline-block;   /* keeps box tight around text */
+   
 }
 .social-links {
     margin-top: 40px;
