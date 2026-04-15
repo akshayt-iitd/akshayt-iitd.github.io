@@ -261,3 +261,6 @@ header {
 .edu-item {
     display: block;   /* ensures vertical stacking */
 }
+.education-page .text {
+    display: block;
+}
