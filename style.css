@@ -244,12 +244,14 @@ header {
 .main {
     font-weight: 600;
     margin-bottom: 5px;   /* small gap before sublines */
+    animation: fadeIn 1s ease-in;
 }
 
 /* Sublines (details) */
 .sub {
     margin: 2px 0;        /* tight spacing between sublines */
     font-size: 15px;
+    animation: fadeIn 1s ease-in;
 }
 
 /* Space between different education blocks */
