@@ -9,18 +9,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 80px;
+    padding: 25px 80px;
     background-color: #0f172a;
     color: white;
 }
 
 .header-left h1 {
-    margin: 0;
-    font-size: 36px;
+    margin: 20;
+    font-size: 40px;
 }
 
 .designation {
-    font-size: 18px;
+    font-size: 22px;
     color: #cbd5e1;
 }
 
