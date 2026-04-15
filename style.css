@@ -186,11 +186,6 @@ header {
 .email [P]-text a:hover {
     text-decoration: underline;
 }
-.social-section {
-    background-color: #e8fcfc;   /* light blue */
-    padding: 20px 150px;
-    border-radius: 0px;
-}
 .social-links {
     margin-top: 30px;
     display: flex;
