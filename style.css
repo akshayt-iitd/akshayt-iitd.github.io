@@ -27,8 +27,12 @@ header {
     color: #cbd5e1;
 }
 
-.header-left, .designation {
-    margin: o;
+.header-left h1 {
+    margin-bottom: 2px;   /* reduce space below name */
+}
+
+.designation {
+    margin-top: 0;        /* remove space above designation */
 }
 /* NAVIGATION */
 .nav-links {
