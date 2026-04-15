@@ -81,7 +81,7 @@ header {
 
 /* TEXT */
 .text {
-    flex: 2;
+    block: 2;
     animation: fadeIn 1s ease-in;
 }
 
