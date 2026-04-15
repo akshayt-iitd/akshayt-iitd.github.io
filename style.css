@@ -15,13 +15,14 @@ header {
 }
 
 .header-left h1 {
-    margin: 0;
+    margin-top: 10;
     margin-left: 20px; 
     font-size: 40px;
 }
 
 .designation {
     font-size: 22px;
+    margin-left: 20px;
     color: #cbd5e1;
 }
 
