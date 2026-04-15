@@ -1,5 +1,5 @@
 body {
-    margin: auto;
+    margin: 0;
     font-family: 'Garamond', Garamond;
     background-color: #f5f7fa;
 }
@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 80px;
+    padding: 20px 80px;
     background-color: #0f172a;
     color: white;
 }
