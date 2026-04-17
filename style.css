@@ -295,3 +295,12 @@ header {
 .sub {
     margin: 2px 0;        /* tight sublines */
 }
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+    flex-wrap: wrap;   /* ✅ allows stacking on small screens */
+}
