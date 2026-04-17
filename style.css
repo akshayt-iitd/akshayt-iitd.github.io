@@ -275,6 +275,7 @@ header {
 /* Sublines: org, duration, description */
 .card p {
     margin: 2px 0;        /* 🔥 tight spacing between sublines */
+    font-size: 18px;
     line-height: 1.3;
 }
 
