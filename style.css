@@ -266,6 +266,7 @@ header {
 /* Main card spacing (BIG gap between jobs) */
 .card {
     margin-bottom: 25px;   /* space between Research Scholar → Academic Associate */
+    font-size: 22px;
 }
 
 /* Main title */
@@ -276,7 +277,7 @@ header {
 /* Sublines: org, duration, description */
 .card p {
     margin: 2px 0;        /* 🔥 tight spacing between sublines */
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.3;
 }
 
