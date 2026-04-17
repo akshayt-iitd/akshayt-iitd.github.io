@@ -44,7 +44,7 @@ header {
 .nav-links a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
     transition: 0.3s;
 }
@@ -76,7 +76,7 @@ header {
     gap: 50px;
     text-align: justify;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* TEXT */
@@ -116,7 +116,7 @@ header {
 /* Boxes */
 .interest-box {
     padding: 35px;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 10px;
     color: white;
     font-weight: 600;
@@ -161,7 +161,7 @@ header {
 
 .email [O]-text {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .email [O]-text a {
@@ -175,7 +175,7 @@ header {
 
 .email [P]-text {
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .email [P]-text a {
@@ -244,13 +244,14 @@ header {
 .main {
     font-weight: 600;
     margin-bottom: 5px;   /* small gap before sublines */
+    font-size: 22px;
     animation: fadeIn 1s ease-in;
 }
 
 /* Sublines (details) */
 .sub {
     margin: 2px 0;        /* tight spacing between sublines */
-    font-size: 18px;
+    font-size: 20px;
     animation: fadeIn 1s ease-in;
 }
 
