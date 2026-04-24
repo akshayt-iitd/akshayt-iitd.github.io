@@ -28,11 +28,11 @@ header {
 }
 
 .header-left h1 {
-    margin-bottom: 2px;   /* reduce space below name */
+    margin-bottom: 2px;  
 }
 
 .designation {
-    margin-top: 0;        /* remove space above designation */
+    margin-top: 0;        
 }
 /* NAVIGATION */
 .nav-links {
@@ -99,13 +99,13 @@ header {
     animation: fadeIn 1s ease-in;
 }
 
-/* Keep content centered (same width as above section) */
+
 .interest-wrapper {
     max-width: 900px;
     margin: 40px;
 }
 
-/* Grid Layout */
+-----Grid Layout------
 .interest-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -113,7 +113,7 @@ header {
     margin-top: 30px;
 }
 
-/* Boxes */
+--------Boxes-----
 .interest-box {
     padding: 35px;
     font-size: 20px;
@@ -124,19 +124,19 @@ header {
     transition: 0.3s;
     animation: fadeInUp 0.8s ease;
 }
-/* Colors */
+-----Colors----
 .supply { background: #c5f0ee; color: black; }
 .orange { background: #e3b6c0; color: black; }
 .besan  { background: #afdec0; color: black; }
 .flower { background: #c4c9f5; color: black; }
 
-/* Hover Effect */
+------Hover Effect----
 .interest-box:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
-/* Animation */
+-----Animation---
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -148,7 +148,7 @@ header {
     }
 }
 
-/* ANIMATIONS */
+------ANIMATIONS----
 @keyframes fadeIn {
     from {opacity: 0; transform: translateY(20px);}
     to {opacity: 1; transform: translateY(0);}
@@ -240,59 +240,57 @@ header {
     max-width: 700px;
 }
 
-/* Main line (PhD, PG, UG) */
+-----Main line (PhD, PG, UG)----
 .main {
     font-weight: 600;
-    margin-bottom: 5px;   /* small gap before sublines */
+    margin-bottom: 5px;   
     font-size: 22px;
     animation: fadeIn 1s ease-in;
 }
 
-/* Sublines (details) */
+------Sublines (details)----
 .sub {
-    margin: 2px 0;        /* tight spacing between sublines */
+    margin: 2px 0;       
     font-size: 20px;
     animation: fadeIn 1s ease-in;
 }
 
-/* Space between different education blocks */
+
 .edu-item {
-    margin-bottom: 20px;  /* BIG gap between PhD → PG → UG */
+    margin-bottom: 20px;  
 }
 .edu-item {
-    display: block;   /* ensures vertical stacking */
+    display: block;   
 }
 
-/* Main card spacing (BIG gap between jobs) */
+
 .card {
-    margin-bottom: 25px;   /* space between Research Scholar → Academic Associate */
+    margin-bottom: 25px;  
     font-size: 22px;
 }
 
-/* Main title */
+----Main title---
 .card h3 {
-    margin-bottom: 6px;   /* small gap before sublines */
+    margin-bottom: 6px;   
 }
 
-/* Sublines: org, duration, description */
+----Sublines: org, duration, description---
 .card p {
-    margin: 2px 0;        /* 🔥 tight spacing between sublines */
+    margin: 2px 0;        
     font-size: 20px;
     line-height: 1.3;
 }
 
-/* Optional: slightly separate description */
 .card p:last-child {
     margin-top: 6px;
 }
 .education-page {
-    display: block;   /* ✅ makes it vertical */
+    display: block;   
 }
 .edu-item {
-    margin-bottom: 20px;   /* space between items */
-}
+    margin-bottom: 20px;   
 .main {
-    margin-bottom: 5px;   /* small gap before sublines */
+    margin-bottom: 5px;  
 }
 
 .sub {
