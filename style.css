@@ -105,7 +105,7 @@ header {
     margin: 40px;
 }
 
------Grid Layout------
+/* Grid Layout */
 .interest-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
