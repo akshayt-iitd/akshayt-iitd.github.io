@@ -311,10 +311,14 @@ header {
 .exp-box h3 {
     margin-top: 0;
     margin-bottom: 5px;
+
 }
 
 .exp-box p {
     margin: 2px 0;
+    margin-bottom: 10px;
+    text-align: justify;   /* Justifies text inside the experience box paragraphs */
+
 }
 .section-title {
     position: relative;
