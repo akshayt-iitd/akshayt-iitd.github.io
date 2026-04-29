@@ -293,3 +293,6 @@ header {
     transform: translateY(-5px);
     transition: 0.3s;
 }
+.sub {
+    margin: 2px 0;        /* tight sublines */
+}
