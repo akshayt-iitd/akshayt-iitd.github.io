@@ -272,14 +272,14 @@ header {
 
 
 
-/* FORCE vertical layout */
+/*  vertical layout */
 .experience-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-/* FORCE box style */
+/*  box style */
 .exp-box {
     background-color: white !important;
     padding: 20px !important;
@@ -293,6 +293,10 @@ header {
     transform: translateY(-5px);
     transition: 0.3s;
 }
-.sub {
-    margin: 2px 0;        /* tight sublines */
+.org {
+    margin-bottom: 2px;
+}
+
+.duration {
+    margin-bottom: 2px;
 }
