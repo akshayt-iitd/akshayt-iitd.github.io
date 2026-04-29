@@ -306,3 +306,15 @@ header {
 .duration {
     margin-bottom: 2px;
 }
+.exp-box {
+    padding: 10px 20px 18px 20px;
+}
+
+.exp-box h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.exp-box p {
+    margin: 2px 0;
+}
