@@ -318,3 +318,18 @@ header {
 .exp-box p {
     margin: 2px 0;
 }
+.section-title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* Orange underline */
+.section-title::after {
+    content: "";
+    display: block;
+    width: 60px;        /* length of line */
+    height: 2px;        /* thin line (half thick) */
+    background-color: #f97316;
+    margin-top: 5px;
+}
