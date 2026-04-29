@@ -269,33 +269,7 @@ header {
     font-size: 22px;
 }
 
-/* Main title */
-.card h3 {
-    margin-bottom: 6px;   
-}
 
-/* Sublines: org, duration, description */
-.card p {
-    margin: 2px 0;        
-    font-size: 20px;
-    line-height: 1.3;
-}
-
-.card p:last-child {
-    margin-top: 6px;
-}
-.education-page {
-    display: block;   
-}
-.edu-item {
-    margin-bottom: 20px;   
-.main {
-    margin-bottom: 5px;  
-}
-
-.sub {
-    margin: 2px 0;        /* tight sublines */
-}
 
 
 /* FORCE vertical layout */
