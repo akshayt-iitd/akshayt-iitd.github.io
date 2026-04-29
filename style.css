@@ -363,6 +363,7 @@ header {
 .edu-box p {
     margin: 2px 0;
     line-height: 1.3;
+    font-family: 'Garamond', Garamond;   /* Change to any font family you like */
 }
 
 /* Degree style */
