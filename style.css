@@ -279,9 +279,9 @@ header {
 
 /*  box style */
 .exp-box {
-    background-color: #f2fff9;
+    background-color: #fdfaff;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     display: block;
 }
@@ -344,9 +344,9 @@ header {
 
 /* Box styling */
 .edu-box {
-    background: #ffffff;
+    background: #fdfaff;
     padding: 10px 20px 18px 20px;   /* reduced top height */
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     transition: 0.3s;
 }
