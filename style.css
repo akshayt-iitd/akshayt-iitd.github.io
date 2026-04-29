@@ -297,14 +297,13 @@ header {
     margin: 2px 0;        /* tight sublines */
 }
 
-/* Experience Section */
+
 .experience-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);  /* 2 boxes per row */
-    gap: 20px;
+    display: flex;
+    flex-direction: column;   /* ✅ makes it vertical */
+    gap: 20px;                /* space between boxes */
     margin-top: 20px;
 }
-
 /* Box Design */
 .exp-box {
     background: #ffffff;
@@ -338,6 +337,47 @@ header {
 .duration {
     font-size: 14px;
     color: gray;
+}
+
+/* Animation */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.exp-box:nth-child(1) { animation-delay: 0.1s; }
+.exp-box:nth-child(2) { animation-delay: 0.3s; }
+.exp-box:nth-child(3) { animation-delay: 0.5s; }
+
+grid-template-columns: 1fr;
+    .exp-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    animation: fadeUp 0.8s ease;
+}
+
+/* Hover */
+.exp-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Text spacing */
+.exp-box h3 {
+    margin-bottom: 6px;
+}
+
+.exp-box p {
+    margin: 3px 0;
 }
 
 /* Animation */
