@@ -270,8 +270,6 @@ header {
 }
 
 
-
-
 /*  vertical layout */
 .experience-container {
     display: flex;
@@ -332,4 +330,48 @@ header {
     height: 5px;        /* thin line (half thick) */
     background-color: #f97316;
     margin-top: 5px;
+}
+/* Container (vertical layout) */
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Box styling */
+.edu-box {
+    background: #ffffff;
+    padding: 10px 20px 18px 20px;   /* reduced top height */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+/* Hover */
+.edu-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Heading spacing */
+.edu-box h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* Subline spacing (tight) */
+.edu-box p {
+    margin: 2px 0;
+    line-height: 1.3;
+}
+
+/* Degree style */
+.degree {
+    font-weight: 500;
+}
+
+/* Optional subtle text */
+.field {
+    font-size: 14px;
+    color: #555;
 }
