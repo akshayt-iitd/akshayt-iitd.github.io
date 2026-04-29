@@ -298,3 +298,24 @@ header {
 }
 
 
+/* FORCE vertical layout */
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* FORCE box style */
+.exp-box {
+    background-color: white !important;
+    padding: 20px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+    display: block !important;
+}
+
+/* Hover effect */
+.exp-box:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
