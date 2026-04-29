@@ -293,6 +293,12 @@ header {
     transform: translateY(-5px);
     transition: 0.3s;
 }
+
+.exp-box p {
+    margin: 2px 0;      /* 🔥 reduces vertical gap */
+    line-height: 1.3;   /* tighter text spacing */
+}
+
 .org {
     margin-bottom: 2px;
 }
