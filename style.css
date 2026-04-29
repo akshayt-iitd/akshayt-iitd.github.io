@@ -328,8 +328,8 @@ header {
 .section-title::after {
     content: "";
     display: block;
-    width: 60px;        /* length of line */
-    height: 2px;        /* thin line (half thick) */
+    width: 80px;        /* length of line */
+    height: 5px;        /* thin line (half thick) */
     background-color: #f97316;
     margin-top: 5px;
 }
