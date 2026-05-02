@@ -317,6 +317,7 @@ header {
 .exp-box p {
     margin: 2px 0;
     margin-bottom: 5px;
+    font-size: 20px;
     text-align: justify;   /* Justifies text inside the experience box paragraphs */
 
 }
