@@ -239,7 +239,9 @@ header {
 .publication-page .text {
     max-width: 750px;
 }
-
+.publication-page .card {
+    font-size: 18px;
+}
 /* Main line (PhD, PG, UG) */
 .main {
     font-weight: 600;
