@@ -220,7 +220,7 @@ header {
 .card p {
     text-align: justify;
     line-height: 1.6;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .card em {
@@ -237,11 +237,10 @@ header {
 }
 
 .publication-page .text {
-    max-width: 750px;
-}
-.publication-page .card {
+    max-width: 850px;
     font-size: 18px;
 }
+
 /* Main line (PhD, PG, UG) */
 .main {
     font-weight: 600;
