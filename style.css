@@ -222,7 +222,7 @@ header {
 
 .card p {
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.6;
     font-size: 20px;
 }
 
@@ -245,7 +245,7 @@ header {
     font-size: inherit;
 }
 .publication-page .text {
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 /* Main line (PhD, PG, UG) */
