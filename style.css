@@ -208,7 +208,7 @@ header {
 }
 
 .card h3 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 5px;
 }
 
@@ -222,8 +222,8 @@ header {
 
 .card p {
     text-align: justify;
-    line-height: 1.6;
-    font-size: 18px;
+    line-height: 1.5;
+    font-size: 19px;
 }
 
 .card em {
