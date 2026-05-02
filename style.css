@@ -208,7 +208,7 @@ header {
 }
 
 .card h3 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 5px;
 }
 
@@ -217,7 +217,7 @@ header {
 }
 
 .publication-page .card {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .card p {
@@ -245,7 +245,7 @@ header {
     font-size: inherit;
 }
 .publication-page .text {
-    max-width: 850px;
+    max-width: 900px;
     font-size: 18px;
 }
 
