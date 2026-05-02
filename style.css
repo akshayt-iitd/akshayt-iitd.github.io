@@ -321,7 +321,6 @@ header {
     .exp-box p {
     -webkit-text-size-adjust: 100%;   /* stops auto zoom on mobile */
     text-size-adjust: 100%;
-}
     text-align: justify;   /* Justifies text inside the experience box paragraphs */
 
 }
