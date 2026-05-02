@@ -216,6 +216,9 @@ header {
     margin-top: 0;
 }
 
+.publication-page .card {
+    font-size: 20px;
+}
 
 .card p {
     text-align: justify;
@@ -235,7 +238,12 @@ header {
 .card a:hover {
     text-decoration: underline;
 }
-
+.publication-page .card p,
+.publication-page .card a,
+.publication-page .card em,
+.publication-page .card strong {
+    font-size: inherit;
+}
 .publication-page .text {
     max-width: 850px;
     font-size: 18px;
