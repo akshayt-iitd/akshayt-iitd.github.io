@@ -319,6 +319,8 @@ header {
     margin-bottom: 5px;
     font-size: 20px;
     text-align: justify;   /* Justifies text inside the experience box paragraphs */
+    -webkit-text-size-adjust: 100%;   /* stops auto zoom on mobile */
+    text-size-adjust: 100%;
 }
 
 .section-title {
