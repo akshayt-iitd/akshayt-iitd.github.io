@@ -125,10 +125,10 @@ header {
     animation: fadeInUp 0.8s ease;
 }
 /* Colors */
-.supply { background: #c5f0ee; color: black; }
-.orange { background: #e3b6c0; color: black; }
-.besan  { background: #afdec0; color: black; }
-.flower { background: #c4c9f5; color: black; }
+.area1 { background: #c5f0ee; color: black; }
+.area2 { background: #e3b6c0; color: black; }
+.area3  { background: #afdec0; color: black; }
+.area4 { background: #c4c9f5; color: black; }
 
 /* Hover Effect */
 .interest-box:hover {
